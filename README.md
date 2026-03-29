@@ -1,6 +1,6 @@
-# http_status
+# http-status
 
-HTTP status code reference — lookup, categories, descriptions
+HTTP status code reference and checker
 
 ## Usage
 
@@ -8,6 +8,7 @@ HTTP status code reference — lookup, categories, descriptions
 python3 http_status.py --help
 ```
 
-## License
+## Features
 
-MIT
+- Zero dependencies (Python 3.8+)
+- Single file implementation
