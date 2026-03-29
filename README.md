@@ -1,14 +1,17 @@
-# http-status
+# http_status
 
-HTTP status code reference and checker
+HTTP status code reference and classifier
+
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 http_status.py --help
+python http_status.py --help
 ```
 
-## Features
+## Test
 
-- Zero dependencies (Python 3.8+)
-- Single file implementation
+```bash
+python -c "import http_status; http_status.test()"
+```
